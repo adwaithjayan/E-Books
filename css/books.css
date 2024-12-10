@@ -1,0 +1,30 @@
+/*Header*/
+
+.books-header{
+    background:linear-gradient(rgba(33,33,33,.9),rgba(33,33,33,.7)),url('../images/books-bg.jpg') center no-repeat;
+}
+
+/*End Header*/
+
+/*Books*/
+
+.book-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0;
+}
+.books-list{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*responsive*/
+
+@media(max-width:1600px){
+    .book{
+        margin: 6rem 3rem;
+    }
+}
